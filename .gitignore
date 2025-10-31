@@ -1,0 +1,47 @@
+# 🐍 Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos generados por tests
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos creados por Jupyter
+.ipynb_checkpoints
+
+# Configuración de VS Code
+.vscode/
+.settings/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos ocultos de WSL o Linux
+*.lock
+*.pid
